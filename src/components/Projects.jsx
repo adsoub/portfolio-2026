@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import { Link } from "react-router";
 
 function Projects() {
   return (
@@ -17,15 +18,15 @@ function Projects() {
               formations ou de stage.
             </p>
           </div>
-          <a
+          <Link
+            to="/projets"
             className="text-secondary font-medium flex items-center gap-2 group"
-            href="/projets"
           >
             Tous les projets
             <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">
               trending_flat
             </span>
-          </a>
+          </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <ProjectCard />
