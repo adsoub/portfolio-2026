@@ -1,5 +1,6 @@
 import { useLocation } from "react-router";
 import { Link } from "react-router";
+import cv from "../../public/CV_soubigou_adrien.pdf";
 
 function Navbar() {
   const location = useLocation();
@@ -36,7 +37,7 @@ function Navbar() {
         <div className="flex items-center gap-4">
           <a
             className="bg-gradient-primary text-on-primary-fixed px-6 py-2 rounded-lg font-medium active:scale-95 transition-transform"
-            href="/public/CV_soubigou_adrien.pdf"
+            href={cv}
             target="_blank"
           >
             Mon CV

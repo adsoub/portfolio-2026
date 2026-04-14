@@ -1,3 +1,5 @@
+import portrait from "../../public/portrait.png";
+
 function Header() {
   return (
     <section className="min-h-[819px] flex flex-col justify-center px-8 max-w-7xl mx-auto py-20">
@@ -41,7 +43,7 @@ function Header() {
               alt="Developer Portrait"
               className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
               data-alt="cinematic close-up portrait of a professional developer in a dark studio setting with soft purple and cyan rim lighting"
-              src="/public/portrait.png"
+              src={portrait}
             />
           </div>
           <div className="absolute -z-10 -top-20 -right-20 w-64 h-64 bg-primary-dim/20 blur-[100px] rounded-full"></div>
