@@ -21,6 +21,7 @@ function Projects() {
           <Link
             to="/projets"
             className="text-secondary font-medium flex items-center gap-2 group"
+            onClick={() => window.scrollTo(0, 0)}
           >
             Tous les projets
             <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">
