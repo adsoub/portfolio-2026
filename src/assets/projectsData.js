@@ -7,6 +7,16 @@ import trendyMovie from "../../public/trendy_movie.png";
 export const projectsData = [
   {
     id: 1,
+    name: "MNTrack",
+    description:
+      "Une application web de suivi musculation, nutrition et fitness accessible via abonnement.",
+    year: 2026,
+    techs: ["React", "Node", "Express", "MySQL", "Recharts", "TailwindCSS", "Stripe", "Claude Code"],
+    screenshot_path: mntrack,
+    direct_link: "https://mntrack.com",
+  },
+  {
+    id: 2,
     name: "MDCM",
     description:
       "Un jeu pour navigateur web présentant les missions du Département Charente-Maritime et reprenant les codes de jeux rétro.",
@@ -17,7 +27,7 @@ export const projectsData = [
     direct_link: "https://adsoub.alwaysdata.net/kaplay",
   },
   {
-    id: 2,
+    id: 3,
     name: "Crypto Tracker",
     description:
       "Une application affichant les prix en direct de centaines de crypto-monnaies via l'API CoinGecko.",
@@ -28,7 +38,7 @@ export const projectsData = [
     direct_link: "https://crypto-tracker-amber-psi.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Blog Pop Culture",
     description:
       "Un blog comprenant affichage et tri des articles, inscription/connexion utilisateurs, dashboard pour la gestion des articles.",
@@ -39,7 +49,7 @@ export const projectsData = [
     direct_link: "https://adsoub.alwaysdata.net/blog_stage",
   },
   {
-    id: 4,
+    id: 5,
     name: "Assembly: Endgame",
     description:
       "Une version du jeu du pendu où chaque erreur fait disparaître une langage de programmation.",
@@ -50,7 +60,7 @@ export const projectsData = [
     direct_link: "https://adsoub.alwaysdata.net/assembly",
   },
   {
-    id: 5,
+    id: 6,
     name: "Trendy Movie",
     description:
       "Une application permettant de trouver des films via l'API TMDB et affichage des tendances en fonction du nombre de recherches.",
