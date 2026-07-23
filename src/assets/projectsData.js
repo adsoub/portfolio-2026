@@ -3,6 +3,7 @@ import cryptoTracker from "../../public/crypto_tracker.png";
 import blog from "../../public/blog.png";
 import assembly from "../../public/assembly.png";
 import trendyMovie from "../../public/trendy_movie.png";
+import mntrack from "../../public/mntrack.png";
 
 export const projectsData = [
   {
